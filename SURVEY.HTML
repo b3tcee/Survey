@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="SURVEY.CSS" >
+<title>BO Agency</title>
+</head>
+<body>
+  
+  <!-- Heading and Description -->
+  <h1 id="title">BO AGENCY SURVEY FORM</h1>
+  <p id="description">Thank you for choosing our agency, kindly fill out the survey form below</p>
+  
+  <!-- The form starts here -->
+  <form id="survey-form">
+    <!--Personal Information-->
+    <fieldset >
+    <label>Name <input id="name-label" type="text" placeholder="Name"required></label>
+    <label>Registered email address <input id="email-label" type="email" placeholder="Email address" required></label>
+  <label>How long have you been registered with our Agency?(approximate the years)  <input id="number-label" type="number" min="0" max="20" placeholder="Number of years" </label>
+  </fieldset>
+ <!--Service registered-->  
+  <fieldset>
+  <label>Which of our services are you registered for?
+  <select id="dropdown">
+  <option>Google Ads</option>
+  <option>Facebook Ads</option>
+  <option>Tiktok Ads</option>
+  <option>Instagram Ads</option>
+  <option>Search Engine Optimization</option>
+  <option>Account management</option>
+  </select>
+  </label>
+  </fieldset>
+<!--Payment Survey-->
+<fieldset>
+ <label>Are you Satisfied with our services?</label>
+    <label><input type="radio" name="satisfaction" class="inline">Very much</label>
+    <label><input type="radio" name="satisfaction" class="inline">Yes</label>  
+    <label><input type="radio" name="satisfaction"class="inline">No</label> 
+     <label><input type="radio" name="satisfaction" class="inline">Not at all</label>
+  </fieldset>
+  <!--Referrer-->
+  <fieldset>
+  <label>How did you find us?</label>
+  <label><input type="checkbox" value="friend">Through a friend</label>
+  <label><input type="checkbox" value="Snapchat">Snapchat</label>
+ <label><input type="checkbox" value="Facebook">Facebook</label>
+ <label><input type="checkbox" value="Instagram">Instagram</label>
+ <label><input type="checkbox" value="Twitter">Twitter</label>
+ <label><input type="checkbox" value="LinkedIn">LinkedIn</label>
+ <label><textarea name="other" placeholder="Other" rows="4" cols="30"></textarea>
+ </fieldset>
+ <!--SUBMIT-->
+<input type="Submit" value="SUBMIT"> 
+  </form>
+
+</body>
+
+</html>
