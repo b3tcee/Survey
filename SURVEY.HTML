@@ -1,59 +1,119 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="SURVEY.CSS" >
-<title>BO Agency</title>
-</head>
-<body>
-  
-  <!-- Heading and Description -->
-  <h1 id="title">BO AGENCY SURVEY FORM</h1>
-  <p id="description">Thank you for choosing our agency, kindly fill out the survey form below</p>
-  
-  <!-- The form starts here -->
-  <form id="survey-form">
-    <!--Personal Information-->
-    <fieldset >
-    <label>Name <input id="name-label" type="text" placeholder="Name"required></label>
-    <label>Registered email address <input id="email-label" type="email" placeholder="Email address" required></label>
-  <label>How long have you been registered with our Agency?(approximate the years)  <input id="number-label" type="number" min="0" max="20" placeholder="Number of years" </label>
-  </fieldset>
- <!--Service registered-->  
-  <fieldset>
-  <label>Which of our services are you registered for?
-  <select id="dropdown">
-  <option>Google Ads</option>
-  <option>Facebook Ads</option>
-  <option>Tiktok Ads</option>
-  <option>Instagram Ads</option>
-  <option>Search Engine Optimization</option>
-  <option>Account management</option>
-  </select>
-  </label>
-  </fieldset>
-<!--Payment Survey-->
-<fieldset>
- <label>Are you Satisfied with our services?</label>
-    <label><input type="radio" name="satisfaction" class="inline">Very much</label>
-    <label><input type="radio" name="satisfaction" class="inline">Yes</label>  
-    <label><input type="radio" name="satisfaction"class="inline">No</label> 
-     <label><input type="radio" name="satisfaction" class="inline">Not at all</label>
-  </fieldset>
-  <!--Referrer-->
-  <fieldset>
-  <label>How did you find us?</label>
-  <label><input type="checkbox" value="friend">Through a friend</label>
-  <label><input type="checkbox" value="Snapchat">Snapchat</label>
- <label><input type="checkbox" value="Facebook">Facebook</label>
- <label><input type="checkbox" value="Instagram">Instagram</label>
- <label><input type="checkbox" value="Twitter">Twitter</label>
- <label><input type="checkbox" value="LinkedIn">LinkedIn</label>
- <label><textarea name="other" placeholder="Other" rows="4" cols="30"></textarea>
- </fieldset>
- <!--SUBMIT-->
-<input type="Submit" value="SUBMIT"> 
-  </form>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="SURVEY.CSS">
+      <title>BO Agency</title>
+    </head>
+    <body>
+      <!-- Heading and Description -->
+      <h1 id="title">BO AGENCY SURVEY FORM</h1>
+      <p id="description">Thank you for choosing our agency, kindly fill out the survey form below</p>
+      
+      <!-- The form starts here -->
+      <form id="survey-form">
+        <!--Personal Information-->
+        <fieldset >
+          <label>Name <input id="name-label" type="text" placeholder="Name"required></label>
+          <label>Registered email address <input id="email-label" type="email" placeholder="Email address" required></label>
+          <label>How long have you been registered with our Agency?(approximate the years)  <input id="number-label" type="number" min="0" max="20" placeholder="Number of years"></label>
+        </fieldset>
 
-</body>
+        <!--Service registered-->  
+        <fieldset>
+          <label>Which of our services are you registered for?
+            <select id="dropdown">
+              <option>Google Ads</option>
+              <option>Facebook Ads</option>
+              <option>Tiktok Ads</option>
+              <option>Instagram Ads</option>
+              <option>Search Engine Optimization</option>
+              <option>Account management</option>
+            </select>
+          </label>
+        </fieldset>
 
-</html>
+        <!--Payment Survey-->
+        <fieldset>
+          <label>Are you Satisfied with our services?</label>
+          <label><input type="radio" name="satisfaction" class="inline">Very much</label>
+          <label><input type="radio" name="satisfaction" class="inline">Yes</label>  
+          <label><input type="radio" name="satisfaction"class="inline">No</label> 
+          <label><input type="radio" name="satisfaction" class="inline">Not at all</label>
+        </fieldset>
+
+        <!--Referrer-->
+        <fieldset>
+          <label>How did you find us?</label>
+          <label><input type="checkbox" value="friend">Through a friend</label>
+          <label><input type="checkbox" value="Snapchat">Snapchat</label>
+          <label><input type="checkbox" value="Facebook">Facebook</label>
+          <label><input type="checkbox" value="Instagram">Instagram</label>
+          <label><input type="checkbox" value="Twitter">Twitter</label>
+          <label><input type="checkbox" value="LinkedIn">LinkedIn</label>
+          <label><textarea name="other" placeholder="Other" rows="4" cols="30"></textarea>
+        </fieldset>
+
+        <!--SUBMIT-->
+        <input type="Submit" value="SUBMIT"> 
+      </form>
+
+      <div class="sub-menu__list-wrapper">
+        <ul class="sub-menu__list">
+          <div class="sub-menu__list-header">MOBILE DEVELOPMENT</div>
+          <li class="sub-menu__list-item">
+            <a href="/services/ios-app-development-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/060d6567ca387684e5cc381e991920978294544046a629205db03196d86900ed.jpg" data-descr="Build an engaging, industry-specific iOS app for any device" data-link="/services/ios-app-development-services" data-alt="iOS Image" class="sub-item-link sub-item-link--list">iOS</a>
+          </li>
+          <div class="sub-menu__list-header">Android</div>
+          <li class="sub-menu__list-item">
+            <a href="/services/android-app-development-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/4b1d8d7ffa73e1570b192fb43a9392baa794ad895e5ea32fd49b5e6bd8acd55e.jpg" data-descr="Create a reliable, state-of-the-art Android solution that works on any device of every brand" data-link="/services/android-app-development-services" data-alt="Android Image" class="sub-item-link sub-item-link--list">Android</a>
+          </li>
+          <div class="sub-menu__list-header"></div>
+          <li class="sub-menu__list-item">
+            <a href="/technologies/windows-phone-development-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/9da4de4bed7fd770c23c15c3fccf3cb496c67d44ab1f0a7cd873e9690e2e3396.jpg" data-descr="Provide solid support and management of your existing Windows applications" data-link="/technologies/windows-phone-development-services" data-alt="Windows Image" class="sub-item-link sub-item-link--list">Windows</a>
+          </li>
+          <div class="sub-menu__list-header"></div>
+          <li class="sub-menu__list-item">
+            <a href="/technologies/hybrid-development" data-image="https://www.intellectsoft.net/upload/images/menu-items/e19bc28bd8b16fe7f1bbeb81e301cff5e9701c21cc7bd4ed8125d82269e2ff90.jpg" data-descr="Go cost-efficient with an appealing and reliable app for both Android and iOS" data-link="/technologies/hybrid-development" data-alt="Hybrid Image" class="sub-item-link sub-item-link--list">Hybrid</a>
+          </li>
+        </ul>
+      </div>
+      <ul>
+        <li>
+          <a href="/services/dedicated-development-team">
+            <img src="https://www.intellectsoft.net/upload/images/menu-items/3fbf717cfe324002179edbad7c102ff569f341550c8d321860717eec5dc195f6.png" alt="Dedicated Team Image">
+            <h3 class="menu-title">Dedicated Team</h3>
+            <p class="menu-description">Scale your delivery capacity and build products faster with the help of our top qualified engineers</p>
+            <p class="read-more">Read more
+            <i class="isoi-angle-right "></i></p>
+          </a>
+        </li>
+      </ul>
+      <div class="sub-menu-list-container">
+        <ul class="sub-menu">
+          <li class="menu-item">
+            <a href="/services/it-consulting-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/c30415cfd994e7a8190b42430b5e0485cc5598ded8a8fc3c731195f73a5e2979.jpg" data-descr="Latest tech implementation, enterprise architecture, and Digital Transformation consulting from IT industry’s top minds" data-link="/services/it-consulting-services" data-alt="IT Consulting Image" class="sub-item-link">
+            IT Consulting </a>
+          </li>
+          <li class="menu-item">
+            <a href="/services/digital-transformation-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/cc8b65a08bea2ba22062648f549008f2e17ed74e01611ed9a872b176a0db39f0.jpg" data-descr="Intelectsoft’s digital transformation services powered by future-proof technologies prepare enterprises for a new era of advancement and growth." data-link="/services/digital-transformation-services" data-alt="Digital Transformation Image" class="sub-item-link">
+            Digital Transformation </a>
+          </li>
+          <li class="menu-item">
+            <a href="/services/ui-ux-design-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link">
+              UX / UI Design </a>
+          </li>
+          <li class="menu-item">
+            <a href="/services/qa-and-software-testing-services" data-image="https://www.intellectsoft.net/upload/images/menu-items/77117c07b144195d350b96b692f8b22164b9ebcf8b55e468fec40216025e0b91.jpg" data-descr="Decade-long expertise, established standards, automated testing techniques" data-link="/services/qa-and-software-testing-services" data-alt="QA & Testing Image" class="sub-item-link">
+            QA & Testing </a>
+          </li>
+          <li class="menu-item">
+          <a href="/services/dev-ops" data-image="https://www.intellectsoft.net/upload/images/menu-items/c80025f6a716ffd50680a0d729a06ce8805af9bfb01014be7cd01762d962251e.jpg" data-descr="Over a decade in ensuring continuous delivery and high quality of software solutions" data-link="/services/dev-ops" data-alt="DevOps Image" class="sub-item-link">
+          DevOps </a>
+          </li>
+        </ul>
+        <a href="https://www.intellectsoft.net/services">All Services <i class="isoi-angle-right "></i></a>
+      </div>
+
+    </body>
+
+  </html>
