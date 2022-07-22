@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body{
+background-color: #f0f0f0;
+font-family:'Poppins';
+}
+section{
+  background-color: #fafafa;
+  height: fit-content;
+  width: auto;
+}
+.white{
+  color: rgb(255, 255, 255);
+}
+.red{
+  color: rgb(255, 0, 0);
+}
+.orange{
+  color: #FCAE1E;
+}
+.lb{
+  color:#63c5DA;
+}
+.db{
+  color:#3944BC;
+}
+.divheight{
+  height: 20px;
+  margin:1px 0;
+  border-bottom:5px solid;
+  clear:left;
+  width: 310px;
+  
+
+}
+bold{
+  font-weight: Bold;
+}
+.stext{
+ color: grey;
+}
+.texti{
+  color: grey;
+  size:7px;
+ }
+.ltext{
+  font-weight: bold;
+  font-size:18px;
+}
+.divcolor{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width:250px;
+  text-align:left;
+  padding:30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px #e4dddd;
+  }
+/*.five,.three{
+display:flex;
+flex-direction: column;
+}*/
+.pad{
+  padding-top: 20px;
+}
+.one{
+  text-align: center;
+  width: 700px;
+  margin:auto;
+  margin-bottom: 50px;
+}
+.mar{
+ margin: 0px 0px;
+ font-size: 24px;
+}
+#flex{
+  display: flex;
+  flex-direction: row;
+}
+.two{
+  margin-left: 200px;
+  display: inline;
+}
+.three{
+margin-left:550px ;
+margin-top: -200px;
+}
+.four{
+margin-left: 390px;
+display:inline;
+}
+.five{
+margin-left: 550px;
+margin-bottom: -50px;
+border-radius: 50px;
+}
+
+img{
+  width: 44px;
+  height: 44px;
+  float: right;
+  margin-bottom: -10px;
+}
+.imgheight{
+  height: 50px;
+}
