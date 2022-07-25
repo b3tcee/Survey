@@ -1,0 +1,72 @@
+/* Responsive Design For Tablets */
+@media only screen and (max-width: 1024px){
+  .mar {
+    font-size: 40px;
+  }
+  .stext {
+    font-size: 21px;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+.grid-box{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0px auto;
+}
+.three{
+  margin-left: 40px;
+  margin-top: -3px;
+}
+.grid-item {
+  object-fit: fill;
+  display:flex;
+  flex-direction: column;
+}
+}
+
+
+/* Responsive Design For Phones */
+@media only screen and (max-width: 414px) {
+  .mar {
+    font-size: 56px;
+  }
+  .stext {
+    color: grey;
+    font-size: 24px;
+  }
+  .two, .three, .four, .five {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  /* .two, {
+    display:block;
+    margin-left: 30px;
+  } */
+
+  .one {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  /* .four {
+    margin-left: -307px;
+    display: block;
+    margin-top: 295px;
+  } */
+
+  .grid-box{
+    width: 100%;
+    margin: 0px;
+    grid-template-columns: 0;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .grid-item:first-child {
+    position: relative;
+    bottom: 7em;
+  }
+}
