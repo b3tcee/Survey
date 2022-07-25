@@ -6,8 +6,9 @@ font-family:'Poppins';
 }
 section{
   background-color: #fafafa;
-  height: fit-content;
-  width: auto;
+  /* height: fit-content; */
+  padding: 50px 0px;
+  width: 100%;
 }
 .white{
   color: rgb(255, 255, 255);
@@ -30,8 +31,6 @@ section{
   border-bottom:5px solid;
   clear:left;
   width: 310px;
-  
-
 }
 bold{
   font-weight: Bold;
@@ -49,23 +48,23 @@ bold{
 }
 .divcolor{
   background-color: rgb(255, 255, 255);
-  height: auto;
+  /* height: auto; */
   width:250px;
   text-align:left;
   padding:30px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 5px #e4dddd;
-  }
+}
 /*.five,.three{
-display:flex;
-flex-direction: column;
+  display:flex;
+  flex-direction: column;
 }*/
 .pad{
   padding-top: 20px;
 }
 .one{
   text-align: center;
-  width: 700px;
+  width: 50%;
   margin:auto;
   margin-bottom: 50px;
 }
@@ -78,21 +77,21 @@ flex-direction: column;
   flex-direction: row;
 }
 .two{
-  margin-left: 200px;
-  display: inline;
+  margin-left: 40px;
+  /* display: inline; */
 }
 .three{
-margin-left:550px ;
-margin-top: -200px;
+  margin-left: 40px;
+  margin-top: -200px;
 }
 .four{
-margin-left: 390px;
-display:inline;
+  margin-left: 40px;
+  display:inline;
 }
 .five{
-margin-left: 550px;
-margin-bottom: -50px;
-border-radius: 50px;
+  margin-left: 40px;
+  margin-bottom: -50px;
+  border-radius: 50px;
 }
 
 img{
@@ -103,4 +102,30 @@ img{
 }
 .imgheight{
   height: 50px;
+}
+
+
+
+/* ================== REARRANGEMENT ================= */
+
+.grid-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+}
+
+section.grids {
+  /* this is a pseudo class for selecting the last item of the same tags 
+  e.g select all <section> but edit just the last one */
+  padding: 10% 0px;
+} 
+
+.grid-item {
+  object-fit: fill;
 }
