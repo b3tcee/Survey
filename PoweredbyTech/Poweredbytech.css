@@ -76,7 +76,7 @@ bold{
   display: flex;
   flex-direction: row;
 }
-.two{
+.two, .two-toggle{
   margin-left: 40px;
   /* display: inline; */
 }
@@ -84,7 +84,7 @@ bold{
   margin-left: 40px;
   margin-top: -200px;
 }
-.four{
+.four, .four-toggle{
   margin-left: 40px;
   display:inline;
 }
@@ -118,6 +118,10 @@ img{
 .flex-box {
   display: flex;
   flex-direction: column;
+}
+
+.toggle-tab {
+  display: none;
 }
 
 section.grids {
